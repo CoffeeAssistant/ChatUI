@@ -1,0 +1,68 @@
+html {
+  background-color: #121212;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+
+}
+
+h6, h5, h4, h3, h2, h1, p, label {
+  color: white;
+  padding-left: 1.5%;
+  line-break: anywhere;
+}
+
+textarea {
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  opacity: 65%;
+  outline: none;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: white;
+  opacity: 65%;
+  position: fixed;
+  bottom: 0;
+  right: 2.5%;
+}
+
+/* #chat {
+  flex: 1;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+} */
+
+#chat {
+  max-height: 533.38px;
+  overflow-y: auto;
+}
+
+#wrapper {
+  margin-top: 50px;
+}
